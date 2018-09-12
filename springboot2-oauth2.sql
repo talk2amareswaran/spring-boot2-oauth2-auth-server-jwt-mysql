@@ -22,7 +22,7 @@ AUTOAPPROVE VARCHAR(255) DEFAULT NULL);
 	VALUES(
     'USER_CLIENT_APP','{bcrypt}$2a$10$EOs8VROb14e7ZnydvXECA.4LoIhPOoFHKvVF/iBZ/ker17Eocz4Vi',
 	'USER_CLIENT_RESOURCE,USER_ADMIN_RESOURCE',
-	'role_admin,role_superadmin',
+	'role_admin,role_user',
 	'authorization_code,password,refresh_token,implicit',
 	NULL,NULL,
 	900,3600,
